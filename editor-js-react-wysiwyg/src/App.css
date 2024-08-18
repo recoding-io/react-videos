@@ -1,0 +1,26 @@
+.editor{
+  box-shadow: 0px 0px 20px 0px rgba(76,87,125, 0.2);
+  background: #fff;
+  padding: 20px 30px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+body{
+  background: #f6f6f6;
+}
+
+#editorjs-container{
+  background-color: #f8f8f8;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+.editor button {
+  border: none;
+  padding: 10px 20px;
+  background: #2c2c2c;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
