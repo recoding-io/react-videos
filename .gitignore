@@ -1,0 +1,45 @@
+# Node modules directory (never commit this!)
+**/node_modules
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output directory (generated files)
+/build/
+/dist/
+/out/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Editor temporary files
+*.swp
+*~
+.*~
+
+# Operating system generated files
+.DS_Store
+
+# Environment configuration files (sensitive information)
+.env
+.env.local
+.env.development
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-error.log*
+
+# Test artifacts
+/coverage/
+/jest-report/
+
+# Miscellaneous
+/tmp/
+/temp/
+
+# React specific files to ignore (common across projects)
+/src/**/*.d.ts  # TypeScript declaration files in src directory
